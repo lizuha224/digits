@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html {
-    font-family: 'Halyard Display', sans-serif;
-    font-style: normal;
-}
 @font-face {font-family: "Halyard Text Regular";
     src: url("89248b0583721153668df86453b579de.eot"); /* IE9*/
     src: url("89248b0583721153668df86453b579de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -15,403 +6,699 @@ html {
     url("89248b0583721153668df86453b579de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url("89248b0583721153668df86453b579de.svg#Halyard Text Regular") format("svg"); /* iOS 4.1- */
   }
-.container {
-    max-width: 1600px;
-    width: 100%;
-    margin: auto;
-}
-.block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.section_header{
-    max-width: 1180px;
-    width: 100%;
-    margin: auto;
-}
-.block_header{
-    display: flex;
-    align-items: center;
-}
-.logo{
-    margin-right: 107px;
-}
-.menu_button{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 80px;
-    text-decoration: none;
-    color: #1E266D;
-    padding-right:30px;
-}
-.tel{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 80px;
-    text-decoration: none;
-    color: #1E266D;
-    margin-right: 50px;
-}
-.button_header{
-    margin-left: 224px;
-}
-.button{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    border-radius: 100px;
-    padding: 10px 16px 10px 14px;
-    cursor: pointer;
-}
-.button--primary {
-    background: #3751FF;
-    color: #FFFFFF;
-    border:none;
-}
-.section_digits{
-    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
-}
-.block_digits_title{
-    margin:auto;
-    margin-top: 144px;
-    width: 1178px;
-}
-.section_title{
-    margin:auto;
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 56px;
-    text-align: center;
-    color: #1E266D;
-}
-.digits_text{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    color: #455880;
-}
-.digits_text_block{
-    width: 1180px;
-    text-align: center;
-    margin-top: 27px;
-    margin-left: 210px;
-}
-.buttons_digits{
-    margin-top: 29px;
-    padding-bottom: 483px;
-}
-.button_digits1{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    border-radius: 100px;
-    padding: 18px 34px 18px 34px;
-    cursor: pointer;
-    margin-right: 22px;
-}
-.button_digits2{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    border-radius: 100px;
-    padding: 18px 38px 18px 38px;
-    cursor: pointer;
-}
-.button--primary1 {
-    color:#455880;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-    border:none;
-}
-.buttons_digits{
-    margin-left: 615px;
-}
-.digits_img{
-    position: absolute;
-    margin-top: -450px;
-    margin-left: 342px;
-}
-.grey_text{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:16px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 27px;
-    color: rgba(69, 88, 128, 0.5);
-    margin:auto;
-    margin-top: 200px;
-    margin-bottom: 49px;
-}
-.company_block{
-    display: flex;
-    justify-content: center;
-}
-.company_img{
-    margin-top: 49px;
-    padding-right: 72px;
-    margin-bottom: 162px;
-}
-.people_img{
-    position: absolute;
-    margin-top: 500px;
-    padding-bottom: 160px;
-}
-.icon{
-    padding-top: 126px;
-    padding-left: 984px;
-}
-.people_title{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:22px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #1E266D;
-    margin-left: 1089px;
-    margin-top: -60px;
-    line-height: 125%;
-}
-.people_text{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:18px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #455880;
-    line-height: 27px;
-    margin-left: 1089px;
-    width: 300px;
-    padding-top: 25px;
-}
-.section_design{
-    margin-top: 150px;
-    padding-top: 139px;
-    background:#FFF9EA;
-}
-.design_text{
-    font-family:"Halyard Text Regular" sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 150%;
-    text-align: center;
-    color: #455880;    
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.button_design{
-    margin-left: 728px;
-    margin-bottom: 37px;
-}
-.design_img{
-    cursor: pointer;
-}
-
-.reviews {
-    max-width: 1180px;
-    width:100%;
-    margin-bottom: 150px;
-}
-
-.reviews_title{
-    padding-top: 250px;
-    padding-bottom: 56px;
-}
-.reviews_block{
-    border: 1px solid rgba(69, 88, 128, 0.2);
-    border-radius: 4px;
-    max-width: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.people_text_review{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:18px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #455880;
-    line-height: 180%;
-    width: 300px;
-    min-height: 211px;    
-}
-.reviews_img{
-    margin-left: 105px;
-    margin-bottom: 23px;
-    max-width: 64px;
-    max-height: 64px;
-}
-.people_review{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:22px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #1E266D;
-    line-height: 125%;
-    padding-top: 23px;
-    text-align: center;
-    margin-left: 5px;
-}
-.ssilka{
-    margin-top: 0;
-    margin-left: 95px;
-}
-.people_text_block{
-    padding-left: 0px;
-    max-width: 340px
-}
-.reviews_block {
-    height: 467px;
-    padding: 38px 44px 450px 43px;
-    margin-right: 30px;
-}
-.happy-user {
-    display: flex;
-    flex-direction: column;
-    max-width: 270px;
-    margin-top: 39px;
-}
-.others {
-    display: flex;
-    max-width: 1180px;
-}
-.intouch {
-    background: #3751FF;
-    padding: 88px 211px 88px 205px;
-    margin-bottom: 47px;
-}
-.intouch_title {
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    color: #FFFFFF;
-}
-.launch_text {
-    display: flex;
-    justify-content: space-between;
-}
-.intouch_button {
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:18px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #1E266D;
-    line-height: 110%;
-    margin-left: 5px;
-    padding: 17px 31px 13px 60px;
-    background: #FFFFFF url(../img/messag.png) no-repeat top 17px left 23px;
-}
-.launch_submit {
-    align-items:center;
-    padding-top: 13px;
-}
-.launch_submit.button--primary1 {
-    color: #455880;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 110%;
-    text-align: center;
-}
-.intouch_text {
+html {
+    font-family:"Halyard Text Regular";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 125%;
-    color: #DFE0EB;
-    padding-top: 19px;
 }
-.studio {
-    color:yellow;
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.section_footer{
+button {
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.container {
     max-width: 1180px;
     width: 100%;
     margin: auto;
-    margin-top: 128px;
 }
-.footer_top{
+.container__header {
     display: flex;
-    border-bottom: 1px solid rgba(135, 146, 161, 0.08);
-    padding-bottom: 77px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
-.footer_title{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:22px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    color: #1E266D;
-    margin-bottom: 22px;
+header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    vertical-align: middle;
 }
-.footer_column2{
+.navigation__header {
     display: flex;
-    flex-direction: column;
-    margin-left: 184px;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
 }
-.footer_menu{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:18px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
+.header__logo__link {
+    padding: 0;
+    height: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header__logo__img {
+    margin: auto;
+}
+.navigation__link {
+    font-style: normal;
+    font-weight: normal;
     text-decoration: none;
-    color:#455880;
-    padding-bottom: 15px;
+    color: #1E266D;
+    
 }
-.socials_footer{
-    cursor: pointer;
-    margin-bottom: 24px;
+
+.header__tel {
+    text-decoration: none;
+    color: #1E266D;
 }
-.footer_bottom{
-    margin-top: 53px;
-    margin-bottom: 107px;
+.contactus__button {
+    padding: 17px 18px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family:"Halyard Text Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background: #3751FF;
 }
-.copyright{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:14px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
+.button__hover:hover{
+    background-color: #302C34;
+    color: #fff;
+    transition: 500ms;
+    border-radius: 100px;
+}
+.section__promo {
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+}
+.container__promo {
+    padding-top: 144px;
+}
+.promo__text {
+    margin: auto;
+    margin-bottom: 29px;
+}
+.promo__title {
+    max-width: 570px;
+    margin: auto;
+    width: 100%;
+    font-size: 56px;
+    line-height: 105%;
+    text-align: center;
+    color: #1E266D;
+    margin-bottom: 27px;
+}
+.promo__desc {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+.promo__buttons {
+    max-width: 370px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.buy-digits__button {
+    padding: 17px 18px;
+    align-items: center;
+    background: #3751FF;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+}
+.white__button {
+    padding: 17px 18px;
+    align-items: center;
+    background: #fff;
+    color: #455880;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+}
+.graphic {
+    display: flex;
+    justify-content: space-around;
+}
+.section__clients {
+    margin-top: -134px;
+    background: #fff;
+    padding-top: 186px;
+}
+.wearetrusted {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
     color: rgba(69, 88, 128, 0.5);
 }
-.socials_img {
-    margin-right: 25px;
+.icon__partners {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 150px;
 }
-.footer_bottom{
+.clients__title {
+    width: 510px;
+    height: 145px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about {
     display: flex;
     justify-content: space-between;
 }
-.fs{
-    font-family:"Halyard Text Regular" sans-serif !important;
-    font-size:14px;font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: right;
-    color: #455880;
-    text-decoration: none;
-    padding-right: 22px;
+.guys__img{
+    position: relative;
+    top: -131px;
+    margin-left:auto;
 }
+
+.design{
+    margin-left: 168px;
+    margin-right: 175px;
+
+}
+
+.about__block{
+    max-width: 378px;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom:  1px solid rgba(69, 88, 128, 0.2);
+}
+.title__about{
+    /* max-width: 1000px; */
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+
+}
+.tittle__aboutinside{
+    width: 300px;
+    height: 59px;
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+}
+.txt__about{
+    max-width: 300px;
+    height: 134px;
+    width: 100%;
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #455880;
+}
+.txt__inside{
+    margin-left: 48px;
+}
+
+.about__block:nth-child(2){
+    margin-top: 31px;
+}
+.about__block:nth-child(3){
+    margin-top: 31px;
+}
+.section__drafts {
+    padding-top: 139px;
+    padding-bottom: 580px;
+    background: #FFF9EA url(../img/drafts.png) no-repeat bottom;
+}
+.drafts__elements {
+    text-align: center;
+}
+.drafts__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    
+}
+.drafts__content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 410px;
+    width: 100%;
+    font-size: 21px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+}
+.section__reviews {
+    padding-top: 232px;
+}
+.reviews__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #1E266D;
+    margin-bottom: 60px;
+}
+.reviews__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.review__box {
+    display: flex;
+    height: 467px;
+    max-width: 372px;
+    width: 100%;
+    padding: 38px 43px 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+}
+.review__content {
+    margin-bottom: 43px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #455880;
+    text-align: left;
+}
+.profilephoto {
+    border-radius: 32px;
+    margin-bottom: 30px;
+}
+.profilenamelink {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #1E266D;
+    
+}
+.review__sitelink {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #455880;
+}
+.section__intouch {
+    background: #3751FF;
+}
+.container__intouch {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+    padding-bottom: 115px;
+}
+.intouch__title {
+    width: 430px;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.intouch__box {
+    height: 120px;
+    padding-top: 28px;
+    width: 290px;
+    text-align: center;
+}
+.intouch__button {
+    cursor: pointer;
+    padding: 17px 27px;
+    outline: none;
+    border: none;
+    background: #FFFFFF url(../img/envelope.svg) no-repeat 20px center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 53px;
+    color: #455880;
+    margin-bottom: 17px;
+}
+.takeapeek {
+    font-size: 16px;
+    line-height: 125%;
+    text-align: right;
+    color: #DFE0EB;
+}
+.studiolink {
+    text-decoration: none;
+    color: #FED385;
+}
+
+
+.footer__div{
+    display: flex;
+    margin-top: 124px;
+    justify-content: space-between;
+    height: 338px;
+}
+.demos{
+    margin-left: 15px;
+    margin-right: 34px;
+}
+.footer__pages{
+    max-width: 212px;
+    width: 100%;
+}
+.footer__txt{
+  margin-top: 31px;
+  max-width: 310px;
+  width: 100%;
+  font-family: "Halyard Text Regular" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #455880;
+}
+.pages__title{
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 125%;
+    color: #1E266D;
+}
+
+.pages__txt{
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 225%;
+    color: #455880;
+}
+
+.soc__footer{
+    margin-top: 31px;
+    margin-bottom: 24px;
+}
+.pages__title{
+    margin-bottom: 22px;
+}
+.footer__copyright{
+    max-width: 1184px;
+    width: 100%;
+    padding-top: 53px;
+    margin-bottom: 107px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(135, 146, 161, 0.08);
+}
+.copyright__else{
+    display: flex;
+}
+.copyright{
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(69, 88, 128, 0.5);
+}
+.ptg{
+    margin-left: 15px;
+    font-family: "Halyard Text Regular" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #455880;
+}
+
+
+@media(max-width:1450px){
+    
+    .footer__div {
+        justify-content: space-between;
+
+    }
+    .digits__txt{
+        margin: 0;
+        margin-left: 150px;
+    }
+    }
+    @media(max-width:1400px){
+        
+      .number__contact{
+          display: none;
+      }
+      .icon__partners{
+          flex-wrap: wrap;
+      }
+      .design{
+        display: block;
+        margin-top: 40px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 40px;
+    }
+    }
+    @media(max-width:1300px){
+    .review__all {
+        max-width: 1000px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .review__one:first-child {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .review__one:last-child {
+        margin-right: 0px;
+    }
+    .review__one:nth-child(2) {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .demos{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }
+    .partner:first-child{
+        margin-left: 20px;
+    }
+    .partner:last-child{
+        margin-right: 20px;
+    }
+    }
+    @media(max-width:1200px){
+        .navigation{
+            display: none;
+        }
+        .contact{
+            display: block;
+        }
+        .number__contact{
+            display: flex;
+            vertical-align: middle;
+
+        }
+    }
+    @media(max-width:1000px){
+        .graphic{
+            display: none;
+        }
+      .partner:first-child{
+          margin-left: 0;
+      }
+      .about{
+          flex-wrap: wrap;
+      }
+      .guys__img{
+         margin-right: auto;
+      }
+      .about__block:last-child{
+            border: none;
+      }
+      .design{
+          display: block;
+          margin-top: 40px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 40px;
+      }
+    
+      .div__ready {
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .b_and_txt{
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      .review__all {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .review__box:first-child{
+          margin: 0;
+          margin-bottom: 20px;
+      }
+      .review__box:nth-child(2) {
+        margin-left: 0px;
+       
+    }
+      .review__box:last-child{
+        margin: 0;
+        margin-top: 20px;
+    }
+      .tittle__ready{
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          max-width: 800px;
+      }
+      .footer__div {
+        justify-content: space-between;
+        
+            }
+            .resources{
+                margin-right: 0;
+            }
+            .footer__copyright {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 50px;
+            }
+   
+    }
+    @media(max-width:840px){
+      .div__ready {
+          padding-left: 0;
+          padding-right: 0;
+          width: 95%;
+      }
+    }
+    @media(max-width:770px){
+      .partner:nth-child(2){
+      display: none;
+      
+      }
+      .partner:nth-child(5){
+      display: none;}    
+      .partner:nth-child(4){
+          display: none;}
+    }
+    @media(max-width:770px){
+          .tittle_rev{
+              margin-top: 0;
+          }
+          .examples_section{
+              display: none;
+          }
+    }
+    @media(max-width:755px){
+        .block_nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo{
+            width: 200px;
+            margin-left: 0;
+            margin-bottom: 20px;
+        }
+        .contact{
+            margin-right: 0;
+        }
+        .contactus{
+            margin-left: 0;
+        }
+        .number__contact{
+            display: none;
+        }
+    }
+    @media(max-width:600px){
+        .guys__img{
+           display: none;
+         }
+        .footer__logo{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .digits__txt{
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .resources{
+            display: none;
+        }
+       
+    }
+    @media(max-width:550px){
+        .container__clients{
+            display: none;
+        }
+    }
+    @media(max-width:440px){
+        .about__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .tittle__aboutinside{
+            margin-top: 20px;
+            text-align: center;
+
+        }
+        .txt__inside{
+            margin-left: 0;
+        }
+        .txt__about{
+            text-align: center;
+        }
+    }
+    @media(max-width:420px){
+        .contactus{
+            display: none;
+        }
+        .design {
+            max-width: 90%;
+        }
+    }
